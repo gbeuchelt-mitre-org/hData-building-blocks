@@ -1,4 +1,9 @@
 advance_directive.xsd
 allergy.xsd
 encounter.xsd
+patient.xsd
+comment.xsd
+condition.xsd
 healthcare_provider.xsd
+result.xsd
+support.xsd
