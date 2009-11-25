@@ -7,3 +7,7 @@ condition.xsd
 healthcare_provider.xsd
 result.xsd
 support.xsd
+insurance_provider.xsd
+medication.xsd
+immunization.xsd
+vital_signs.xsd
