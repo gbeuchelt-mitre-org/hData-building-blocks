@@ -23,9 +23,11 @@
         xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc">
 
         
-        <jxb:globalBindings>
+        <jxb:globalBindings
+        fixedAttributeAsConstantProperty="true"
+                enableValidation="true">
             <jxb:serializable/>
-            <xjc:superClass name="org.mitre.hdata.hrf.hDataXmlDocument"/>
+<!--            <xjc:superClass name="org.projecthdata.hdata.hrf.hDataXmlDocument"/> -->
         </jxb:globalBindings>
         
     

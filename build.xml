@@ -30,8 +30,6 @@
                 <xjc destDir="build/gen-src" binding="resources/binding.xml">
                     <arg value="-extension"/>
                     <schema dir="../hData/schemas/2009/06" includesfile="resources/includesfile.txt"/>
-                    <!-- <schema dir="../hData/schemas/2009/06" excludes="root.xsd,*.html,LICENSE"/> -->
-                    <!-- <produces dir="build/gen-src/org/mitre/hdata/core" includes="**/*.java"/> -->
                 </xjc>
                 <xjc destDir="build/gen-src">
                     <schema dir="../hData/schemas/2009/06" includesfile="resources/includestypesfile.txt"/>
@@ -40,5 +38,6 @@
             </sequential>
         </outofdate>
     </target>
+
 
 </project>
