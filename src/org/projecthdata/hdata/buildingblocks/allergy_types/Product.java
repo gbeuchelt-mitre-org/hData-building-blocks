@@ -35,9 +35,9 @@ public class Product {
         return "UNII";
     }
 
-    public org.projecthdata.hdata.schemas._2009._06.allergy_types.Product getProduct() {
-        org.projecthdata.hdata.schemas._2009._06.allergy_types.Product result =
-                new org.projecthdata.hdata.schemas._2009._06.allergy_types.Product();
+    public org.projecthdata.hdata.schemas._2009._06.allergy.Product getProduct() {
+        org.projecthdata.hdata.schemas._2009._06.allergy.Product result =
+                new org.projecthdata.hdata.schemas._2009._06.allergy.Product();
 
         result.setCode(code);
         result.setCodeSystem(getCodeSystem());
